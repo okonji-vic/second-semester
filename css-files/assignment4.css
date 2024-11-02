@@ -97,6 +97,7 @@ body {
             background-color: #2EC4B6;
             border-radius: 3px;
             border: 0;
+            color: white;
         
         }
 
@@ -104,6 +105,7 @@ body {
             font-size: 14px;
             font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
             text-align: center;
+            
         }
 
         input:focus, select:focus {
@@ -159,7 +161,7 @@ body {
             display: block;
             left: 0px;
             width: 90%;
-            height: 96vh ;
+            height: 95vh ;
             margin: 0 auto 10px auto;
 
         
@@ -182,7 +184,7 @@ body {
         }
 
         .form-text {
-            margin-top: 30px;
+            margin-top: 20px;
             font-size: 12px;
             padding: 15px;
             
