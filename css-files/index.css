@@ -1,0 +1,110 @@
+body {
+    background-color: black;
+}
+body h1 {
+    text-align: center;
+    color: white;
+    margin: 0 auto;
+    padding: 20px;
+    background: linear-gradient(to right, green, rgb(255, 0, 203), rgb(245, 185, 0));
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    border-radius: 5px;
+    z-index: 1;
+    position: relative;
+    border-bottom-style: outset;
+    border-bottom: 5px solid grey;
+    width: 80%;
+}
+
+#container {
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center;
+    align-items: center; */
+    width: 70%;
+    background-color: whitesmoke;
+    height: auto;
+    border-radius: 8px;
+    z-index: 2;
+    text-align: center;
+    padding: 30px 30px 30px 30px;
+    margin: 0 auto;
+    
+}
+
+#container {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 35%;
+    left: 0;
+    right: 0;
+    bottom: 5%;
+    width: 50%;
+    height: 55%;
+    margin: auto;
+    /* transform: translate(-50%, -50%); */
+    background: linear-gradient(to bottom, green, aqua);
+    border-radius: 8px;
+    z-index: 2;
+    text-align: center;
+    padding: 30px;
+    box-shadow: 4px 4px lightgray;
+}
+
+#container p {
+    margin: 10px 0;
+    font-weight: 700;
+}
+
+#div-button {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0;
+    gap: 15px;
+}
+
+#div-button button {
+    padding: 10px 20px;
+    border-radius: 5px;
+    background: linear-gradient(to right, green, rgb(255, 0, 203), rgb(245, 185, 0));
+    color: white;
+    font-weight: 700;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    height: 50%;
+}
+
+a:hover {
+    color: black;
+    font-weight: 700;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+}
+
+a {
+    text-decoration: none;
+    color: whitesmoke;
+    font-size: 4vw;
+}
+
+@media screen and (min-width: 700px) {
+    #container {
+        width: 80%;
+        position: absolute;
+    top: 10%;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 50%;
+    height: 65%;
+    margin: auto;
+    box-shadow: 6px 6px lightgray;
+    }
+    
+}

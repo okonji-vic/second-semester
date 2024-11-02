@@ -1,0 +1,457 @@
+body {
+    background-color:rgb(245, 248, 250);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+;
+}
+ul {
+    border: 0px solid black;
+    list-style: none;
+    display: flex;
+    justify-content: right;
+    margin: 25px auto 25px auto;
+    padding-left: 0;
+    align-items: center;
+    
+}
+
+li {
+    border: 0px solid red;
+    width: 100px;
+    text-align: center;
+    flex-shrink: 1;
+    font-size: 13px;
+    
+
+    
+}
+
+li:first-child {
+    width: 60%;
+    display: flex;
+    justify-content: left;
+    
+}
+li:nth-child(2), li:nth-child(3) {
+    width: 120px;
+}
+
+img {
+    width: auto;
+    height: 25px;
+    object-fit: cover;
+}
+
+.container {
+    width: 62%;
+    background-color: white;
+    height: auto;
+    margin: 25px auto 0 auto;
+    display: flex;
+    border-radius: 5px;
+    border: 0px solid black;
+    box-shadow: 5px 5px 50px 5px grey;
+
+
+}
+
+.flex1 {
+    width: 74%;
+    background-color: white;
+    border: 0px solid;
+    border-radius: 5px 0 0 5px;
+    
+}
+
+h2 {
+ padding-left: 40px;
+ font-weight: 400;
+ box-shadow: 5px 5px 0px 0px grey;
+ border: px solid;
+ width: 80%;
+ text-shadow: 3px 3px 2px  rgb(168, 168, 168);
+ background-color: rgb(220, 220, 220);
+ font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.flex1-child {
+    border: 0px solid;
+    flex-direction: row;
+    flex-wrap: wrap;
+    display: flex;
+    gap: 15px;
+    /* justify-content: space-between; */
+    padding-left: 20px;
+}
+
+label {
+    border: 0px solid black;
+    width: 45%;
+    line-height: 22px;
+}
+
+label:nth-child(3) {
+    width: 75%;
+}
+
+.last-label {
+    width: 95%;
+    border: px solid black;
+}
+
+input {
+    width: 95%;
+    padding: 7px;
+    box-sizing: border-box;
+    border: 0;
+    border-radius: 3px;
+    background-color: rgb(235, 235, 235);
+}
+.last-label input:nth-of-type(1) {
+    width: 60%;
+    border-radius: 4px 0 0 4px;
+    padding: 7px;
+    box-sizing: border-box;
+}
+.last-label input:nth-of-type(2) {
+    width: 20%;
+    border-radius: 0px;
+    padding-right: 0;
+    box-sizing: border-box;
+    text-align: right;
+    border: px solid;
+}
+.last-label input:nth-of-type(3) {
+    width: 15%;
+    border-radius: 0 4px 4px 0;
+    box-sizing: border-box;
+    padding-left: 0;
+    text-align: right;
+}
+.flex2 {
+    width: 26%;
+    background-color:rgb(17, 121, 191);
+    padding: 10px 12px 0 8px;
+    box-sizing: border-box;
+    border-radius:0 5px 5px 0;
+
+
+}
+
+p[class="paragraph1"]::before {
+    content: "1";
+    padding: 5px 5px 0 5px;
+    font-size: 14px;
+    color: rgb(17, 121, 191);;
+    border: 2px solid rgb(17, 121, 191);;
+    border-radius: 50%;
+    width: 14px;
+    height: 19px;
+    margin: 10px 10px 0 15px;
+    display: inline-block;
+    text-align: center;
+    /* vertical-align: bottom; */
+    
+}
+
+p {
+    border: 0px solid black;
+    margin: 0 5px 5px 5px;
+    padding: 0px;
+    font-size: 18px;
+    
+}
+
+p[class="paragraph2"]::before {
+    content: "2";
+    padding: 5px 5px 0 5px;
+    font-size: 14px;
+    color: rgb(17, 121, 191);;
+    border: 2px solid rgb(17, 121, 191);
+    border-radius: 50%;
+    width: 14px;
+    height: 19px;
+    margin: 10px 10px 0 15px;
+    display: inline-block;
+    text-align: center;
+    /* vertical-align: bottom; */
+    
+}
+.button {
+    display: block;
+    background-color:rgb(3, 142, 125);
+    width: 88%;
+    border: px solid;
+    margin: 17px;
+    padding: 10px 0;
+    color: white;
+    
+}
+
+.paragraph3 {
+font-size: 16px;
+text-align: center;
+color: rgb(60,60,60);
+
+}
+p[class="paragraph3"]::before {
+    content: "?";
+    padding: 2px;
+    font-size: 10px;
+    color: rgb(17, 121, 191);;
+    border: 2px solid rgb(17, 121, 191);;
+    border-radius: 50%;
+    width: 12px;
+    height: 12px;
+    margin-right: 5px;
+    display: inline-block;
+    text-align: center;
+    vertical-align: bottom;
+    
+}
+
+span {
+    font-weight: 700;
+    color: initial;
+}
+
+.paragraph4 {
+    font-size: 16px;
+    text-align: center;
+    color: white;
+    background-color: grey;
+    width: 21%;
+    margin: 20px auto;
+    border-radius: 3px;
+    font-size: 10px;
+
+}
+
+.span1 {
+    color: inherit;
+    font-size: initial;
+}
+
+/* label[for="checkbox"] {
+    color: white;
+    display: inline;
+    font-size: 1.2vw;
+}
+
+input[type="checkbox"] {
+    display: inline-block;
+    width: 20%;
+    outline: 1px solid white;
+    padding: 0;
+    margin-top: 10px;
+    border-radius: 50%;
+
+}
+*/
+
+input[type="checkbox"] {
+    display: none;
+}
+
+.circle-checkbox {
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+    cursor: pointer;
+    user-select: text;
+    width: 95%;
+    font-size: 1vw;
+    color: white;
+    margin-bottom: px;
+}
+
+
+
+.circle-checkbox:first-of-type {
+    margin-top: 30px;
+}
+
+.circle-checkbox:last-of-type {
+    margin-bottom: 30px;
+}
+
+hr {
+    margin: 20px 0;
+}
+
+
+
+.checkmark {
+    height: 14px;
+    width: 14px;
+    background-color: white;
+    border-radius: 50%;
+    display: inline-block;
+    margin: 0 5px 0 5px;
+    position: relative;
+    border: 1px solid white;
+}
+
+ input:checked + .checkmark {
+    background-color: rgb(17, 121, 191);
+
+}
+
+.checkmark::before {
+    content: "";
+    position: absolute;
+    display: block;
+    top: 2px;
+    left: 4px;
+    width: 3px;
+    height: 7px;
+    border: solid white;
+    border-width: 0 2px 2px 0;
+    transform: rotate(45deg);
+}
+
+.flex2-paragraph {
+color: white;
+font-size: 12px;
+padding-top: 10px;
+
+}
+
+span {
+    color: inherit;
+    
+} 
+
+a {
+    color: inherit;
+    text-decoration: underline double;
+}
+
+.span3 {
+    font-size: 50px;
+    
+    
+}
+
+.span4 {
+    vertical-align: 90%;
+    font-size: 20px;
+}
+
+.img2 {
+    width: 22px;
+    height: 22px;
+    border-radius: 50%;
+    vertical-align: -90%;
+    margin: 10px 10px 10px 5px;
+}
+
+footer {
+    text-align: center;
+    margin-top: 10px;
+}
+
+footer a {
+    color: rgb(17, 121, 191);
+    text-decoration: none;
+}
+
+.span5 {
+    color: white;
+    font-size: 12px;
+}
+
+@media (max-width: 650px) {
+    .flex1 {
+        width: 59%;
+        border-radius: 5px 5px 0 0;
+    }
+    .flex2 {
+        width: 41%;
+        border-radius: 0 0 5px 5px;
+    }
+    .container {
+        border: 1px solid;
+        width: 95%;
+    }
+    .flex1 p {
+        font-size: 3.1vw;
+        font-weight: 700;
+        border: 1px solid;
+    }
+    label {
+        font-size: 2.8vw;
+    }
+    p[class="paragraph1"]::before, p[class="paragraph2"]::before, p[class="paragraph3"]::before {
+        font-size: 8px;
+        padding: 1px 2px 0 2px;
+    color: rgb(17, 121, 191);;
+    border: 0.5px solid rgb(17, 121, 191);
+    border-radius: 50%;
+    width: 5px;
+    height: 10px;
+    margin: 10px 2px 0 2px;
+    display: inline-block;
+    text-align: center;
+    }
+
+    input {
+        width: 100%;
+        padding: 2px;
+        box-sizing: border-box;
+        border: px solid;
+        border-radius: 3px;
+        background-color: rgb(235, 235, 235);
+    }
+    input::placeholder {
+        font-size: 2.8vw;
+    }
+
+    .flex1-child {
+        padding-left: 2px;
+        border: 1px solid;
+        display: flex;
+        flex-direction: column;
+        gap: 0px;
+    }
+    .flex1-child label {
+        width: 100%;
+        border: 1px solid;
+        padding: 5px;
+        box-sizing: border-box;
+    }
+    .flex1-child input {
+        border: 1px solid;
+    }
+    .last-label input:nth-of-type(1) {
+        width: 49%;
+        border: 1px solid;
+        padding: 0px;
+        box-sizing: border-box;
+    }
+    .last-label input:nth-of-type(2) {
+        width: 29%;
+        border: 1px solid;
+        padding: 0px;
+        box-sizing: border-box;
+        text-align: right;
+    }
+    .last-label input:nth-of-type(3) {
+        width: 22%;
+        border: 1px solid;
+        padding: 0px;
+        box-sizing: border-box;
+        text-align: left;
+    }
+    .last-label input:nth-of-type(1)::placeholder {
+        font-size: 2.4vw;
+        
+    }
+    .last-label input:nth-of-type(2)::placeholder {
+        font-size: 2.4vw;
+        
+    }
+    .last-label input:nth-of-type(3)::placeholder {
+        font-size: 2.4vw;
+    
+    }
+}

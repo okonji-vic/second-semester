@@ -1,0 +1,186 @@
+.img1 {
+    position: relative;
+    top: 0px;
+    left: 21%;
+    display: inline-block;
+    margin: 0;
+
+}
+
+.div-section2-child1 {
+    border: 0.5px solid #005AE2;
+    width: 768px;
+    height: 190px;
+    margin: 0px auto;
+    padding-left: 50px;
+    border-radius: 24px;
+    background-color: rgba(254, 254, 254, 0.1);
+    position: relative;
+    top: -250px;
+    left: 3%;
+    
+    
+}
+
+
+.div-section2-child1 div {
+    height: 10vh;
+    margin-right: 20%;
+    padding-top: 15px;
+    padding-left: 50px;
+    box-sizing: border-box;
+}
+.div-section2-child1 p {
+    border: 1px solid black;
+    text-align: center;
+    width: 330px;
+    margin: 20px auto;
+    position: relative;
+}
+
+.div-section2-child1 .section2-span:nth-of-type(1) {
+    width: 20px;
+    height: 20px;
+    border: 2px solid black;
+    background-color: white;
+    display: inline-block;
+    border-top-left-radius: 18px;
+    border-bottom-left-radius: 18px;
+    border-right: transparent ;
+    margin-top: 10px;
+    position: relative;
+    left: 0px;
+    
+}
+.div-section2-child1 .section2-span:nth-of-type(3) {
+    width: 20px;
+    height: 20px;
+    border: 2px solid black;
+    display: inline-block;
+    border-top-right-radius: 18px;
+    border-bottom-right-radius: 18px;
+    border-left: transparent;
+    margin-top: 10px;
+    position: relative;
+    left: -6px;
+}
+
+.section2-span-child:nth-of-type(2) {
+    border: 1px solid black;
+    width: 20px;
+    display: inline-block;
+    vertical-align: 60%;
+    margin-right: -8px;
+    position: relative;
+    left: -8px;
+}
+
+.div-section2-child1 .section2-span:nth-of-type(4) {
+    width: 20px;
+    height: 20px;
+    border: 2px solid black;
+    background-color: white;
+    display: inline-block;
+    border-top-left-radius: 18px;
+    border-bottom-left-radius: 18px;
+    border-right: transparent ;
+    margin-top: 10px;
+    position: relative;
+    left: -13px;
+    
+    
+}
+.div-section2-child1 .section2-span:nth-of-type(6) {
+    width: 20px;
+    height: 20px;
+    border: 2px solid black;
+    display: inline-block;
+    border-top-right-radius: 18px;
+    border-bottom-right-radius: 18px;
+    border-left: transparent;
+    margin-top: 10px;
+    position: relative;
+    left: -18px;
+}
+.section2-span-child:nth-of-type(5) {
+    border: 1px solid black;
+    width: 20px;
+    display: inline-block;
+    vertical-align: 60%;
+    margin-right: -8px;
+    position: relative;
+    left: -19px;
+}
+
+.div-section2-child1 .section2-span:nth-of-type(7) {
+    width: 20px;
+    height: 20px;
+    border: 2px solid black;
+    background-color: white;
+    display: inline-block;
+    border-top-left-radius: 18px;
+    border-bottom-left-radius: 18px;
+    border-right: transparent ;
+    margin-top: 10px;
+    position: relative;
+    left:-25px;
+    
+    
+}
+.div-section2-child1 .section2-span:nth-of-type(9) {
+    width: 20px;
+    height: 20px;
+    border: 2px solid black;
+    display: inline-block;
+    border-top-right-radius: 18px;
+    border-bottom-right-radius: 18px;
+    border-left: transparent;
+    margin-top: 10px;
+    position: relative;
+    left: -28px;
+}
+.section2-span-child:nth-of-type(8) {
+    border: 1px solid black;
+    width: 20px;
+    display: inline-block;
+    vertical-align: 60%;
+    margin-right: -8px;
+    position: relative;
+    left: -30px;
+}
+.div-section2-child1 .section2-span:nth-of-type(10) {
+    width: 20px;
+    height: 20px;
+    border: 2px solid black;
+    background-color: white;
+    display: inline-block;
+    border-top-left-radius: 18px;
+    border-bottom-left-radius: 18px;
+    border-right: transparent ;
+    margin-top: 10px;
+    position: relative;
+    left:70px;
+    
+    
+}
+.div-section2-child1 .section2-span:nth-of-type(12) {
+    width: 20px;
+    height: 20px;
+    border: 2px solid black;
+    display: inline-block;
+    border-top-right-radius: 18px;
+    border-bottom-right-radius: 18px;
+    border-left: transparent;
+    margin-top: 10px;
+    position: relative;
+    left: 69px;
+}
+.section2-span-child:nth-of-type(11) {
+    border: 1px solid black;
+    width: 20px;
+    display: inline-block;
+    vertical-align: 60%;
+    margin-right: -8px;
+    position: relative;
+    left: 66px;
+}

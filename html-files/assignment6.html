@@ -1,0 +1,994 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css-styles/styles1.css">
+    <title>Document</title>
+    <style>
+        body {
+          background-color: red;
+            margin: 0px;
+            padding: 0;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        }
+
+        main {
+            background-color: red;
+            
+        }
+        .container1 {
+            background-color: green;
+            position: relative;
+        }
+
+        .header1 {
+            width: 100%;
+            height: auto;
+            background-color: white;
+            border: 1px solid black;
+            
+            
+        }
+
+        .nav-flex-container {
+            width: 95%;
+            height: 7vh;
+            margin: 0 auto;
+            background-color: green;
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+            padding: 3px;
+        }
+
+        .nav-flex-child {
+            border: 1px solid black;
+            display: flex;
+            justify-content: flex-end;
+            height: 5vh;
+            align-items: center;
+            
+        }
+        .scissors {
+            justify-content: flex-start;
+            color: blue;
+            width: 24%;
+        }
+        .url, .features, .pricing, .analytics {
+            background-color: aqua;
+            width: 9%;
+            justify-content: flex-start;
+        }
+        .faq {
+            width: 20%;
+            justify-content: flex-start;
+        }
+        .url, .login {
+            color: blue;
+        }
+        .login, .free {
+            width: 6%;
+            justify-content: center;
+        }
+        .free, .div-section1-child2 .sign-up {
+            color: white;
+            flex-wrap: nowrap;
+            flex: 1;
+            background-color: blue;
+            border-radius: 18px;
+        }
+        select {
+            width: 100%;
+            height: 5vh;
+            font-size: 16px;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        }
+
+        .div-section1 {
+            background-color: brown;
+            width: 50%;
+            margin: 0 auto;
+            padding-top: 100px;
+            text-align: center;
+        }
+
+        
+
+        .div-section1-child1 h1 {
+            color: aqua;
+            margin-top: 0;
+            line-height: 60px;
+            text-align: center;
+
+        }
+
+        .div-section1-child1 h1 span {
+            color: green;
+        }
+        .div-section1-child1 p {
+            line-height: 20px;
+            text-align: center;
+            padding: 10px;
+        }
+
+        .div-section1-child2 {
+            display: flex;
+            width: 200px;
+            border: 1px solid black;
+            margin: 0 auto;
+            padding: 10px 20px;
+
+        }
+
+
+        .sign-up {
+            border: px solid red;
+            width: 100px;
+            flex-wrap: nowrap;
+            margin-right: 20px;
+            
+        }
+
+        .learn-more {
+            border: 1px solid black;
+            align-items: end;
+            color: blue;
+        }
+
+        
+    
+        .div-section3-child1 {
+            width: 100%;
+            height: 10vh;
+            background-color: white;
+            border: 1px solid black;
+            margin: 0px auto;
+            position: relative;
+            top: -200px;
+        }
+
+        .div-section3-child1 div {
+            width: 66%;
+            height: 40px;
+            margin: 10px auto;
+            background: linear-gradient(to bottom, #E2E9F0B2 70%, #DCE4EBB2 70%, #E2E9F000);
+            border: px solid black;
+            border-radius: 50%;
+            box-shadow: 0px 4px 4px 0px #12245959;
+            padding-top: 10px;
+            
+
+        }
+
+        .container2 {
+          width: 100%;
+          border: 1px solid black;
+          background-color: white;
+          margin-top: 0;
+          
+        }
+
+        .page2-section1 {
+            width: 100%;
+          border: 1px solid black;
+          background-color: white;
+          display: flex;
+          padding: 25px 30px;
+          box-sizing: border-box;
+          flex-direction: row;
+          justify-content: space-evenly;
+          gap: 20px;
+        
+        }
+
+        .page2-section1 div  {
+            border: 1px solid;
+            flex-wrap: wrap;
+            padding: 0 30px 0 0px;
+            width: 15%;
+            box-sizing: border-box;
+        }
+
+
+        .page2-section1 span {
+            border: 1px solid;
+            font-weight: 600;
+            font-size: 32px;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        .page2-section1 div:first-of-type {
+            font-size: 40px;
+            padding: 0;
+            flex: 1;
+            
+            
+        }
+        .page2-section1 span span:first-of-type {
+            color: blue;
+            border: 1px solid;
+        }
+        
+
+        .page2-section2 {
+            width: 84%;
+            height: 50vh;
+            display: flex;
+            flex-direction: row;
+            justify-content: flex-end;
+            margin: 30px auto;
+            gap: 20px;
+            height: auto;
+            flex-wrap: wrap;
+            background-color: aqua;
+        }
+
+        .page2-section2 div {
+            border: 1px solid black;
+            background-color: green;
+            width: 280px;
+            line-height: 20px;
+        
+        }
+        .page2-section2 div:first-of-type {
+            background-color: white;
+            width: 450px;
+            box-sizing: border-box;
+            padding: 0;
+            
+        }
+
+        .page2-section2 div:first-of-type p {
+            border: 1px solid;
+            padding-right: 65px;
+            font-size: 16px;
+            margin-bottom: 0;
+            margin-top: 60px;
+            padding-left: 70px;
+            
+            
+        
+        }
+
+        h3 {
+            font-size: 32px;
+        }
+
+        h3[class="why-choose-scissors"] {
+            margin-top: 0;
+            border: 1px solid;
+            width: 100%;
+            padding: 5px;
+            box-sizing: border-box;
+            text-align: center;
+            
+        }
+
+
+        h3[class="why-choose-scissors"]::before {
+            content: "";
+            border: px solid ;
+            width: 4px;
+            height: 34px;
+            display: inline-block;
+            background: linear-gradient(to bottom, rgba(17, 34, 50, 1),rgba(77, 107, 136, 0) );
+            margin-right: 25px;
+            vertical-align: -25%;
+            
+        }
+        h3[class="why-choose-scissors"] span {
+            color: blue;
+        }
+
+        .container3 {
+            width: 100%;
+            height: 100vh;
+            box-sizing: border-box;
+            background-color: white;
+        }
+        .container3 p {
+            text-align: center;
+            border: px solid;
+            margin: 0 auto;
+            width: 520px;
+
+        }
+        .container3 h3 {
+            margin-bottom: 0;
+        
+        }
+
+        .container3-section2 {
+            width: 65%;
+            margin: 50px auto 25px auto;
+            height: 65vh;
+            background-color: white;
+            display: flex;
+            gap: 2px;
+            position: relative;
+            box-sizing: border-box;
+        }
+
+        .container3-section2 div {
+            width: 33%;
+            border-radius: 5px;
+            border: 0.5px solid blue;
+            height: 62.5vh;
+            padding: 5px 20px 5px 30px;
+            background-color: white;
+            z-index: 1;
+            position: absolute;
+            box-sizing: border-box;
+            
+        }
+        .container3-section2 div:nth-of-type(2) {
+            width: 39%;
+            z-index: 2;
+            height: 65vh;
+            position: absolute;
+            top: -2%;
+            left: 31%;
+            padding-top: 0.95rem;
+        
+        }
+        .container3-section2 div:nth-of-type(3) {
+            left: 69.3%;
+            padding-right: 10px;
+            
+        }
+        .container3-section2 div:nth-of-type(1):hover {
+            width: 34%;
+            left: -2%;
+        }
+        .container3-section2 h5 {
+            font-size: 20px;
+
+        }
+
+        .container3-section2 p {
+            text-align: left;
+            width: 100%;
+            font-size: 16px;
+            font-weight: 500;
+        }
+
+        .container3-section2 .container3-span {
+            display: block;
+            border: px solid;
+            margin-top: 22px;
+            font-size: 13px;
+        }
+
+        .checkmark {
+            height: 14px;
+            width: 14px;
+            background-color: white;
+            border-radius: 50%;
+            display: inline-block;
+            margin: 0 5px 0 5px;
+            position: relative;
+            border: 1px solid blue;
+            vertical-align: middle;
+        }
+
+    
+
+
+
+        .container3-section2 .checkmark::before {
+            content: "";
+            position: relative;
+            display: block;
+            top: -2px;
+            left: 7px;
+            width: 3px;
+            height: 10px;
+            border: solid blue;
+            border-width: 0 2px 2px 0;
+            transform: rotate(45deg);
+            
+
+        }
+
+        .container3-section2 div:hover {
+            width: 42%;
+            border-radius: 5px;
+            border: 0.5px solid blue;
+            height: 76vh;
+            padding: 5px 20px 5px 30px;
+            background-color: darkblue;
+            z-index: 999;
+            position: absolute;
+            top:-10%;
+            box-sizing: border-box;
+            color: white;
+            padding-top: 50px;
+            
+        } 
+
+        .container3-section3 {
+            background-color: white;
+            width: 40%;
+            margin: 0px auto;
+            border: px solid;
+            text-align: center;
+            padding: 10px 0;
+        }
+
+        button {
+            padding: 10px 15px;
+            border-radius: 100px;
+            width: 200px;
+            border: 0.5px solid blue;
+        }
+
+        .c3-button1 {
+            background-color: white;
+            color: blue;
+
+        }
+        .c3-button2 {
+            background-color: blue;
+            color: white;
+            padding: 10px 25px;
+            
+        }
+
+        .container4 {
+            width: 100%;
+            height: 523px;
+            padding-top: 83px;
+            box-sizing: border-box;
+            background: linear-gradient(to right, rgba(30, 52, 72, 1)70%, rgba(30, 52, 72, 0)100%);
+            margin: 0;
+        }
+
+        .container4-section1 {
+            width: 34%;
+            background-color: white;
+            height: 300px;
+            border-radius: 12px;
+            margin: 0 auto;
+            padding: 60px 5px 60px 35px;
+            display: block;
+            flex-direction: row;
+            flex-wrap: wrap;
+            box-sizing: border-box;
+
+        }
+
+        .container4-section1 input::placeholder {
+            color: blue;
+    
+        }
+
+    
+        .container4-flex1 input {
+            width: 100%;
+            border-radius: 5px;
+            border: 0.5px solid blue;
+
+
+        }
+
+        .container4-flex2 input, .container4-flex2 select {
+            width: 50%;
+            border: 0.5px solid blue;
+            border-radius: 5px;
+            box-sizing: border-box;
+            color: blue;
+            font-weight: 3400;
+
+        }
+
+        .container4-flex1  {
+            width: 90%;
+            height: 32px;
+            border: px solid black;
+            display: flex;
+            margin-bottom: 30px;
+
+        }
+
+        .container4-flex2 {
+            width:90%;
+            height: auto;
+            border: px solid black;
+            display: flex;
+            gap: 20px;
+            
+        }
+
+        .c4-button {
+            background-color: blue;
+            border-radius: 100px;
+            width: 90%;
+            margin: 20px auto;
+            color: white;
+        }
+
+        .c4-button::after {
+            content: url(./Vector\ 1.svg);
+            margin-left: 5px;
+            vertical-align: middle;
+        }
+
+        .container4-section1 .c4-p {
+            border: px solid;
+            flex: 1;
+            flex-wrap: wrap;
+            width: 88.5%;
+            font-size: 14px;
+            margin-left: 0;
+            text-align: left;
+            color: blue;
+            
+        }
+
+        .c4-p a {
+            text-decoration: none;
+            font-weight: 700;
+        }
+
+        .container5 {
+            width: 100%;
+            height: 100vh;
+            background-color: white;
+        }
+
+        
+
+        
+        details:not([open]) summary {
+            list-style: none;
+            display: flex;
+            border: px solid;
+            width: 70%;
+            margin-bottom: 0px;
+            margin-left: 15%;
+            padding-left: 0%;
+            box-sizing: border-box;
+            font-size: 20px;
+        }
+
+         details:first-of-type summary {
+            border: px solid;
+            margin-top: 20px;
+        }
+
+
+        hr {
+            border: 0.5px solid green;
+            margin: 1.3% 10.4% 1.3% 14.5%;
+            box-sizing: border-box;
+        }
+
+        details:not([open]) summary::after {
+            content: "+";
+            border: px solid;
+            display: flex;
+            justify-content: flex-end;
+            flex: 1;
+            align-items: center;
+            cursor: pointer;
+
+        }
+
+        details[open] summary {
+            list-style: none;
+            display: flex;
+            justify-content: flex-end;
+            flex: 1;
+            border: px solid;
+            width: 100%;
+            margin: 0 auto 20px auto;
+            padding-left: 0%;
+            box-sizing: border-box;
+            font-size: 20px;
+            
+
+        }
+        details[open]  {
+            list-style: none;
+            display: inline-flex;
+            justify-content: flex-end;
+            flex: 1;
+            border: px solid;
+            width: 70%;
+            padding-left: 0%;
+            line-height: 25px;
+            font-size: 20px;
+            box-sizing: border-box;
+            margin-left: 15%;
+            
+
+        }
+        details[open] summary::after {
+            content: "-";
+            border: px solid;
+            display: inline-flex;
+            justify-content: flex-end;
+            flex: 1;
+            padding-right: 0;
+            box-sizing: border-box;
+            cursor: pointer;
+        }
+
+        .container6 {
+            width: 100%;
+            height: 299px;
+            padding-top: 83px;
+            box-sizing: border-box;
+            background: linear-gradient(to right, rgba(30, 52, 72, 1)70%, rgba(30, 52, 72, 0)100%);
+            margin: 0;  
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            line-height: 48px;
+            gap: 40px;
+        }
+
+        .container6 p {
+            color: white;
+            border: px solid;
+            height: 57px;
+            align-content: center;
+            justify-content: flex-start;
+            font-size: 40px;
+            flex: ;
+            flex-wrap: nowrap;
+            width: 56%;
+        }
+
+        .container6 button {
+            border: px solid;
+            width: 200px;
+            height: 48px;
+            background-color: blue;
+            color: white;
+        }
+
+        .container7 {
+
+        }
+
+
+
+        
+
+
+    </style>
+</head>
+<body>
+    <header class="header1">
+        <nav>
+            <div class="nav-flex-container">
+                <div class="nav-flex-child scissors">SCISSOR</div>
+                <div class="nav-flex-child url">My URLs</div>
+                <div class="nav-flex-child features">
+                    <select>
+                        <option>Features</option>
+
+                    </select>
+                </div>
+                <div class="nav-flex-child pricing">Pricing</div>
+                <div class="nav-flex-child analytics">Analytics</div>
+                <div class="nav-flex-child faq">FAQs</div>
+                <div class="nav-flex-child login">Log In</div>
+                <div class="nav-flex-child free">Try for free</div>
+                
+            </div>
+
+
+        </nav>
+    </header>
+    <main>
+     <div class="container1">
+        <section>
+            <div class="div-section1">
+                <div class="div-section1-child1">
+                    <h1> Optimize Your Online Experience with Our 
+                        Advanced <span>URL Shortening</span> Solution</h1>
+                    <p>Personalize your shortened URLs to align with your brand identity. Utilize custom slugs,
+                         branded links, and domain customization options to reinforce your brand presence and 
+                        enhance user engagement.</p>
+                </div>
+                <div class="div-section1-child2">
+                    <span class="sign-up">Sign Up</span><span class="learn-more">Learn more</span>
+
+                </div>
+            </div>
+        </section>
+        <section>
+            <img src="./Vector 2.svg" class="img1">
+    <div class="div-section2-child1">
+
+        <div>
+        
+        <span class="section2-span"></span><span class="section2-span-child"></span><span class="section2-span"></span>
+        <span class="section2-span"></span><span class="section2-span-child"></span><span class="section2-span"></span>
+        <span class="section2-span"></span><span class="section2-span-child"></span><span class="section2-span"></span>
+        <span class="section2-span"></span><span class="section2-span-child"></span><span class="section2-span"></span>
+        
+        </div>
+        <p>Seamlessly transform your long URLs into concise
+             and shareable links with just few clicks.</p>
+    </div>
+        </section>
+        <section>
+            <div class="div-section3-child1">
+                <div></div>
+            </div>
+        </section>
+     </div>
+     <div class="container2">
+        <section>
+        <div class="page2-section1">
+            <div><span>One Stop.<br>Four <span>Possibilities</span>.</span></div>
+            <div><span>3M</span><p>Active users</p></div>
+            <div><span>60M</span><p>Links & QR codes created</p></div>
+            <div><span>1B</span><p>Clicked & Scanned connections</p></div>
+            <div><span>300K</span><p>App Integrations</p></div>
+        </div>
+       </section>
+       <section>
+       <div class="page2-section2">
+        
+            <div>
+                <h3 class="why-choose-scissors">Why choose <span>Scissors</span></h3>
+                <p>Scissors is the hub of everything that has to do
+                    with your link management. We shorten your URLs,
+                    allow you creating custom ones for your personal,
+                    business, event usage. Our swift QR code
+                    creation, management and usage tracking with
+                    advance analytics for all of these is second to none. </p>
+            </div>
+            <div>
+                <img src="./Ellipse 2.svg">
+                <h3>URL Shortening</h3>
+                <p>Scissor allows you to shorten URLs of your
+                    business, events. Shorten your URL at scale, 
+                    URL redirects.</p>
+            </div>
+            <div>
+                <img src="./Ellipse 2 (1).svg">
+                <h3>Custom URLs</h3>
+                <p>With Scissor, you can create custom URLs, 
+                   with the length you want! A solution for socials 
+                   and businesses.</p>
+            </div>
+            <div>
+                <img src="./Ellipse 2 (2).svg">
+                <h3>QR Codes</h3>
+                <p>Generate QR codes to your business, events. 
+                   Bring your audience and customers to your 
+                   doorstep with this scan and go solution.</p>
+            </div>
+            <div>
+                <img src="./Ellipse 2 (3).svg">
+                <h3>Data Analytics</h3>
+                <p>Receive data on the usage of either your 
+                   shortened URL, custom URLs or generated QR 
+                   codes. Embedded to monitor progress.</p>
+            </div>
+       </div>
+       </section>
+     </div>
+     <div class="container3">
+        <section>
+            <div class="container3-section1">
+                <h3 class="why-choose-scissors">A <span>price perfect</span> for your needs.</h3>
+                <p>From catering for your personal, business, event, socials needs, you can be
+                   rest assured we have you in mind in our pricing.</p>
+
+            </div>
+        </section>
+        <section>
+            <div class="container3-section2">
+                <div>
+                    <p>Basic</p>
+                    <h5>Free</h5>
+                    <p>Free plans for all users</p>
+                    <span class="container3-span"><span class="checkmark"></span>Unlimited URL Shortening</span>
+                    <span class="container3-span"><span class="checkmark"></span>Basic Link Analytics</span>
+                    <span class="container3-span"><span class="checkmark"></span>Customizable Short Links</span>
+                    <span class="container3-span"><span class="checkmark"></span>Standard Support</span>
+                    <span class="container3-span"><span class="checkmark"></span>Ad-supported</span>
+                </div>
+                <div>
+                    <p>Professional</p>
+                    <h5>$15/month</h5>
+                    <p>Ideal for business creators</p>
+                    <span class="container3-span"><span class="checkmark"></span>Enhanced Link Analytics</span>
+                    <span class="container3-span"><span class="checkmark"></span>Custom Branded Domains</span>
+                    <span class="container3-span"><span class="checkmark"></span>Advanced Link Customization</span>
+                    <span class="container3-span"><span class="checkmark"></span>Priority Support</span>
+                    <span class="container3-span"><span class="checkmark"></span>Ad-free Experience</span>
+                </div>
+                <div>
+                    <p>Teams</p>
+                    <h5>$25/month</h5>
+                    <p>Share with up to 10 users</p>
+                    <span class="container3-span"><span class="checkmark"></span>Team Collaboration</span>
+                    <span class="container3-span"><span class="checkmark"></span>User Roles and Permissions</span>
+                    <span class="container3-span"><span class="checkmark"></span>Enhanced Security</span>
+                    <span class="container3-span"><span class="checkmark"></span>API Access</span>
+                    <span class="container3-span"><span class="checkmark"></span>Dedicated Account Manager</span>
+                </div>
+
+            </div>
+        </section>
+        <section>
+            <div class="container3-section3">
+                <button class="c3-button1">Get Custom Pricing</button>
+                <button class="c3-button2">Select Pricing</button>
+
+            </div>
+        </section>
+        <div class="container4">
+            <form method="post" action="">
+            <div class="container4-section1">
+                <div class="container4-flex1">
+                   <input type="text" placeholder="Paste URL here...">
+                </div>
+                <div class="container4-flex2">
+                   <select>
+                      <option class="c4-option" selected hidden>Choose Domain</option>
+                   </select>
+                   <input type="text" placeholder="Type Alias here">
+                </div>
+                <div class="container4-flex3">
+                <button class="c4-button">Trim URL</button>
+                <p class="c4-p">By clicking trimURL, I agree to the <a href="#">Terms of service, </a><a href="#">Privacy Policy</a> and use of cookies.</p>
+                </div>
+            </div>
+            </form>
+        </div>
+        <div class="container5">
+            <h3 class="why-choose-scissors">FAQs</h3>
+            
+            <details><summary>How does URL shortening work ? </summary>URL shortening works by taking a long URL and creating a shorter, condensed version that redirects to the 
+                original URL. When a user clicks on the shortened link, they are redirected to the intended destination.
+            </details>
+            <hr>
+            <details>
+                <summary>
+                Is it necessary to create an account 
+                to use the URL shortening service?
+                </summary>
+            </details>
+            <hr>
+            <details>
+                <summary>
+                Are the shortened links permanent?
+                Will they expire?   
+                </summary>
+            </details>
+            <hr>
+            <details>
+                <summary>
+                Are there any limitations on 
+                the number of URLs I can shorten? 
+                </summary>
+            </details>
+            <hr>
+            <details>
+                <summary>
+                Can I customize the shortened
+                URLs to reflect my brand or content?
+                </summary>
+            </details>
+            <hr>
+            <details>
+                <summary>
+                Can I track the performance
+                of my shortened URLs?   
+                </summary>
+            </details>
+            <hr>
+            <details>
+                <summary>
+                How secure is the URL 
+                shortening service? Are the shortened 
+                links protected against spam or malicious activity?
+                </summary>
+            </details>
+            <hr>
+            <details>
+                <summary>
+                What is a QR code and what can it do?
+                </summary>
+            </details>
+            <hr>
+            <details>
+                <summary>
+                Is there an API available for integrating
+                the URL shortening service into my own applications
+                or websites?
+                </summary>
+            </details>
+            <hr>
+
+        </div>
+        <div class="container6">
+            <p>Revolutionizing Link Optimization</p>
+            <button>Get Started</button>
+        </div>
+        
+
+     </div>
+    </main>
+    <footer>
+        <div class="container7">
+            <div>
+                <h4>SCISSORS</h4>
+                <img>
+                <img>
+                <img>
+                <img>
+            </div>
+            <div>
+                <h6>Why Scissor ?</h6>
+                <span>Scissor 101</span>
+                <span>Integrations & API</span>
+                <span>Pricing</span>
+            </div>
+            <div>
+                <h6>Solutions</h6>
+                <span>Social Media</span>
+                <span>Digital Marketing</span>
+                <span>Customer Service</span>
+                <span>For Developers</span>
+            </div>
+            <div>
+                <h6>Products</h6>
+                <span>Link management</span>
+                <span>QR Codes</span>
+                <span>Link-in-bio</span>
+            </div>
+            <div>
+                <h6></h6>
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <div>
+                <h6></h6>
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <div>
+                <h6></h6>
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <div>
+                <h6></h6>
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <a>Terms of Service</a>
+            <a>Security</a>
+            <a>ⓒ Scissor 2023</a>
+        </div>
+    </footer>
+</body>
+</html>
