@@ -118,11 +118,12 @@ body {
             color: #2EC4B6;
         }
 
-        @media (max-width: 650px) {
+        @media (max-width: 700px) {
         .container {
             position: static;
             display: block;
             width: 100%;
+            
             
         }
         .text-div {
@@ -136,14 +137,14 @@ body {
             position: static;
             display: block;
             left: 0px;
-            width: 100%;
+            width: 98%;
         
         }
 
 
       }
 
-      @media (max-width: 500px) {
+      @media (max-width: 400px) {
         .container {
             position: static;
             display: block;
@@ -162,7 +163,7 @@ body {
             display: block;
             left: 0px;
             width: 90%;
-            height: 36.5rem;
+            height: 37.7rem;
             margin: 0 auto 10px auto;
 
         
@@ -185,7 +186,7 @@ body {
         }
 
         .form-text {
-            margin-top: 0px;
+            margin-top: 6px;
             font-size: 12px;
             padding: 15px;
             
