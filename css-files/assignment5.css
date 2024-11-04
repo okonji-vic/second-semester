@@ -61,6 +61,10 @@ img {
     border-radius: 5px 0 0 5px;
     
 }
+.flex1 input {
+    border: 0;
+    height: 30px;
+}
 
 h2 {
  padding-left: 40px;
@@ -95,14 +99,13 @@ label:nth-child(3) {
 
 .last-label {
     width: 95%;
-    border: px solid black;
+    
 }
 
 input {
     width: 95%;
     padding: 7px;
     box-sizing: border-box;
-    border: 0;
     border-radius: 3px;
     background-color: rgb(235, 235, 235);
 }
@@ -154,7 +157,7 @@ p[class="paragraph1"]::before {
 }
 
 p {
-    border: 0px solid black;
+    
     margin: 0 5px 5px 5px;
     padding: 0px;
     font-size: 18px;
@@ -261,7 +264,7 @@ input[type="checkbox"] {
     width: 95%;
     font-size: 1vw;
     color: white;
-    margin-bottom: px;
+    
 }
 
 
@@ -360,7 +363,7 @@ footer a {
     font-size: 12px;
 }
 
-@media (max-width: 650px) {
+@media (max-width: 720px) {
     .flex1 {
         width: 59%;
         border-radius: 5px 5px 0 0;
@@ -370,89 +373,93 @@ footer a {
         border-radius: 0 0 5px 5px;
     }
     .container {
-        border: 10px solid;
+        border: px solid;
         width: 95%;
         box-sizing: border-box;
     }
     .flex1 p {
-        font-size: 3.1vw;
+        font-size: 2.3vw;
         font-weight: 700;
-        border: 1px solid;
+    
+        
     }
     label {
-        font-size: 2.8vw;
+        font-size: 2.1vw;
     }
     p[class="paragraph1"]::before, p[class="paragraph2"]::before, p[class="paragraph3"]::before {
-        font-size: 8px;
-        padding: 1px 2px 0 2px;
+        font-size: 2vw;
+        padding: 2px 3px 2px 3px;
     color: rgb(17, 121, 191);;
     border: 0.5px solid rgb(17, 121, 191);
     border-radius: 50%;
-    width: 5px;
-    height: 10px;
+    width: 1.7vw;
+    height: 2vw;
     margin: 10px 2px 0 2px;
     display: inline-block;
     text-align: center;
+    vertical-align: text-bottom;
     }
 
     input {
         width: 100%;
         padding: 2px;
         box-sizing: border-box;
-        border: px solid;
         border-radius: 3px;
         background-color: rgb(235, 235, 235);
+        
     }
     input::placeholder {
-        font-size: 2.8vw;
+        font-size: 2vw;
     }
 
     .flex1-child {
         padding-left: 2px;
-        border: 1px solid;
+        border: px solid;
         display: flex;
         flex-direction: column;
         gap: 0px;
     }
     .flex1-child label {
         width: 100%;
-        border: 1px solid;
+        border: px solid;
         padding: 5px;
         box-sizing: border-box;
     }
     .flex1-child input {
-        border: 1px solid;
+        border: 0;
+        height: 30px;
+        padding-left: 4px;
     }
     .last-label input:nth-of-type(1) {
         width: 49%;
-        border: 1px solid;
-        padding: 0px;
+        padding: 4px;
         box-sizing: border-box;
+        
     }
     .last-label input:nth-of-type(2) {
         width: 29%;
-        border: 1px solid;
+        border: px solid;
         padding: 0px;
         box-sizing: border-box;
         text-align: right;
     }
     .last-label input:nth-of-type(3) {
         width: 22%;
-        border: 1px solid;
+        
         padding: 0px;
         box-sizing: border-box;
-        text-align: left;
+        text-align: middle;
     }
     .last-label input:nth-of-type(1)::placeholder {
-        font-size: 2.4vw;
+        font-size: 2vw;
         
     }
     .last-label input:nth-of-type(2)::placeholder {
-        font-size: 2.4vw;
+        font-size: 2vw;
         
     }
     .last-label input:nth-of-type(3)::placeholder {
-        font-size: 2.4vw;
+        font-size: 2vw;
     
     }
     ul {
@@ -480,7 +487,8 @@ footer a {
         position: relative;
         top: -115px;
         left: -10px;
-        background-color: brown;
+        background-color: rgb(220, 220, 220);
+        color: rgb(17, 121, 191);
         padding: 25px 0 25px 50px;
         text-align: left ;
         box-sizing: border-box;
@@ -510,7 +518,7 @@ footer a {
         display: block;
         width: 30px;
         height: 3px;
-        background-color: black;
+        background-color: rgb(3, 77, 80);;
         margin: 6px 0 6px 90%;
         position: relative;
         top: 27px;
@@ -524,18 +532,20 @@ footer a {
         transform: scale(2.5,2.0);
         position: relative;
         top: 0px;
-        left: -45%;
+        left: 4%;
         opacity: 0;
+        width: 10px;
         cursor: pointer;
         z-index: 999;
+
     }
     .paragraph4, .span1 {
         width: 50%;
         font-size: 3.5vw;
     }
-    * {
-        box-sizing: border-box;
-        
+    
+    .circle-checkbox {
+        font-size: 2vw;
     }
     
 }
