@@ -71,7 +71,8 @@ h2 {
  font-weight: 400;
  box-shadow: 5px 5px 0px 0px grey;
  border: px solid;
- width: 80%;
+ width: 90%;
+ box-sizing: border-box;
  text-shadow: 3px 3px 2px  rgb(168, 168, 168);
  background-color: rgb(220, 220, 220);
  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
@@ -234,22 +235,7 @@ span {
     font-size: initial;
 }
 
-/* label[for="checkbox"] {
-    color: white;
-    display: inline;
-    font-size: 1.2vw;
-}
 
-input[type="checkbox"] {
-    display: inline-block;
-    width: 20%;
-    outline: 1px solid white;
-    padding: 0;
-    margin-top: 10px;
-    border-radius: 50%;
-
-}
-*/
 
 input[type="checkbox"] {
     display: none;
@@ -366,16 +352,19 @@ footer a {
 @media (max-width: 720px) {
     .flex1 {
         width: 59%;
-        border-radius: 5px 5px 0 0;
+        border-radius: 5px 5px 0 5px;
     }
     .flex2 {
         width: 41%;
-        border-radius: 0 0 5px 5px;
+        border-radius: 0 5px 5px 0;
     }
     .container {
         border: px solid;
         width: 95%;
         box-sizing: border-box;
+    }
+    h2 {
+        padding-left: 20px;
     }
     .flex1 p {
         font-size: 2.3vw;
