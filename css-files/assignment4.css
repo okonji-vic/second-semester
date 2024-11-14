@@ -133,7 +133,7 @@ a {
 @media (max-width: 430px) {
   .container {
     width: 100%;
-    height: 130vh;
+    height: 131vh;
   }
   .text-div {
     top: 0;
@@ -151,7 +151,8 @@ a {
     padding-top: 0;
   }
   .button {
-    margin-top: 14px;
+    margin-top: 0px;
+    margin-top: 34px;
   }
   #paragraph1 {
     display: none;

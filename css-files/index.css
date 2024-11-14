@@ -63,7 +63,12 @@ body h1 {
     cursor: pointer;
     width: 100%;
     height: auto;
-    margin-bottom: 5px;
+    margin-bottom: 10px;
+}
+
+#div-button button:last-child {
+   border: 1px solid black;
+   display: none;
 }
 
 a:hover {
