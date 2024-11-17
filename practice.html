@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container2 {
+            width: 100%;
+            height: auto;
+            background-color: aqua;
+            padding-left: 30px;
+            box-sizing: border-box;
+        }
+
+        .page2-section1 {
+            border: 1px solid;
+            
+            
+        }
+
+        .page2-section1 div {
+            border: 1px solid;
+            display: inline-block;
+            width: 12vw;
+            vertical-align: top;
+    
+            box-sizing: border-box;
+            
+            
+            
+        }
+
+        .page2-section1 div:first-of-type {
+            width: 24vw;
+            line-height: 4vw;
+        }
+
+        .page2-section1 div:nth-of-type(2) {
+            margin-left: 10vw;
+        }
+
+        .page2-section1 div:first-of-type span:nth-child(2) {
+            color: blue;
+        }
+
+        .page2-section1 div span {
+            border: 1px solid;
+            font-size: 3vw;
+            font-weight: 600;
+        }
+        .page2-section1 div p {
+            border: 1px solid;
+            font-size: 1.6vw;
+            
+        }
+
+        .page2-section2 {
+            border: 1px solid;
+            display: flex;
+            
+        }
+        .page2-section2-child1 {
+            border: 1px solid;
+            width: 25vw;
+
+        }
+        .page2-section2-child2 {
+            border: 1px solid;
+            width: 24vw;
+            margin-left: 9.4vw;
+        }
+        .page2-section2-child3 {
+            border: 1px solid;
+            width: 25vw;
+        }
+        .page2-section1 div:nth-of-type(4), .page2-section2-child3 {
+            margin-left: 5vw;
+        }
+
+        .page2-section2-child2 div, .page2-section2-child3 div{
+            border: 1px solid;
+            margin-bottom: 3vw;
+            padding-right: 15px;
+            
+        }
+        h3 {
+  font-size: 2.5vw;
+}
+
+h3[class="why-choose-scissors"] {
+  margin-top: 0;
+  border: 1px solid;
+  width: 100%;
+  padding: 5px;
+  padding-left: 2px;
+  box-sizing: border-box;
+  text-align: center;
+  font-size: 2.3vw;
+}
+
+#choose-scissors {
+  text-align: left;
+}
+
+h3[class="why-choose-scissors"]::before {
+  content: "";
+  border: px solid;
+  width: 4px;
+  height: 34px;
+  display: inline-block;
+  background: linear-gradient(
+    to bottom,
+    rgba(17, 34, 50, 1),
+    rgba(77, 107, 136, 0)
+  );
+  margin-right: 10px;
+  vertical-align: -25%;
+}
+h3[class="why-choose-scissors"] span {
+  color: blue;
+  font-size: 2.7vw;
+}
+        
+    </style>
+</head>
+<body>
+    <div class="container2">
+        <section>
+        <div class="page2-section1">
+            <div><span>One Stop.<br>Four <span>Possibilities</span>.</span></div>
+            <div><span>3M</span><p>Active users</p></div>
+            <div><span>60M</span><p>Links & QR codes created</p></div>
+            <div><span>1B</span><p>Clicked & Scanned connections</p></div>
+            <div><span>300K</span><p>App Integrations</p></div>
+        </div>
+       </section>
+       <section>
+       <div class="page2-section2">
+          <div class="page2-section2-child1">
+            <div>
+                <h3 class="why-choose-scissors" id="choose-scissors">Why choose <span>Scissors</span></h3>
+                <p>Scissors is the hub of everything that has to do
+                    with your link management. We shorten your URLs,
+                    allow you creating custom ones for your personal,
+                    business, event usage. Our swift QR code
+                    creation, management and usage tracking with
+                    advance analytics for all of these is second to none. </p>
+            </div>
+          </div>
+          <div class="page2-section2-child2">
+            <div>
+                <img src="../Assets/Group 6.png">
+                <h3>URL Shortening</h3>
+                <p>Scissor allows you to shorten URLs of your
+                    business, events. Shorten your URL at scale, 
+                    URL redirects.</p>
+            </div>
+            <div>
+                <img src="../Assets/Frame 1000001695 (2).png">
+                <h3>QR Codes</h3>
+                <p>Generate QR codes to your business, events. 
+                   Bring your audience and customers to your 
+                   doorstep with this scan and go solution.</p>
+            </div>
+            
+         </div>
+         <div class="page2-section2-child3">
+            <div>
+                <img src="../Assets/Frame 1000001695 (1).png">
+                <h3>Custom URLs</h3>
+                <p>With Scissor, you can create custom URLs, 
+                   with the length you want! A solution for socials 
+                   and businesses.</p>
+            </div>
+            <div>
+                <img src="../Assets/Frame 1000001718.png">
+                <h3>Data Analytics</h3>
+                <p>Receive data on the usage of either your 
+                   shortened URL, custom URLs or generated QR 
+                   codes. Embedded to monitor progress.</p>
+            </div>
+         </div>
+       </div>
+       </section>
+     </div>
+</body>
+</html>
