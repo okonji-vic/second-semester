@@ -1,0 +1,267 @@
+.header1 {
+    width: 100%;
+    height: auto;
+    background-color: white;
+    border: px solid black;
+  }
+
+  .nav-flex-container {
+    width: 95%;
+    height: 7vh;
+    margin: 0 auto;
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 3px;
+  }
+
+  .nav-flex-child {
+    border: px solid black;
+    display: flex;
+    justify-content: flex-end;
+    height: 5vh;
+    align-items: center;
+  }
+  .scissors {
+    justify-content: flex-start;
+    color: blue;
+    width: 24%;
+    vertical-align: top;
+  }
+  .scissors::before {
+    content: "";
+    display: inline-block; /* Ensures the pseudo-element respects width/height */
+    background-image: url(../Assets/Vector\ \(4\).png);
+    background-size: contain; /* Scales the image to fit the element */
+    background-repeat: no-repeat; /* Prevents the image from repeating */
+    margin-right: 3px;
+    width: 20px;
+    height: 20px;
+  }
+
+  .url,
+  .features,
+  .pricing,
+  .analytics {
+    background-color: white;
+    width: 9%;
+    justify-content: flex-start;
+  }
+
+  .features,
+  select {
+    width: 7%;
+    outline: 0;
+    border: 0px solid;
+    height: 6vh;
+  }
+  .pricing {
+    justify-content: center;
+  }
+  .faq {
+    width: 20%;
+    justify-content: flex-start;
+  }
+  .url,
+  .login {
+    color: blue;
+  }
+  .login,
+  .free {
+    width: 6%;
+    justify-content: center;
+  }
+  .free,
+  .div-section1-child2 .sign-up {
+    color: white;
+    flex-wrap: nowrap;
+    flex: 1;
+    background-color: blue;
+    border-radius: 18px;
+  }
+  select {
+    width: 100%;
+    height: 5vh;
+    font-size: 16px;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+      sans-serif;
+  }
+  .hamburger-nav {
+    display: none;
+  }
+
+  @media (max-width: 768px) {
+    .hamburger-nav {
+      border: px solid;
+      position: relative;
+      display: block;
+      z-index: 999;
+      padding: 10px;
+    }
+    .hamburger-nav div {
+      display: inline;
+      border: px solid;
+      vertical-align: -20%;
+    }
+
+    .hamburger-nav div:nth-of-type(3) {
+      margin-left: 1%;
+      border-radius: 3vw;
+      width: 17vw;
+      height: 5vw;
+      display: inline-flex;
+    }
+    .hamburger-nav div:last-of-type {
+      position: absolute;
+      right: 3%;
+      display: inline-flex;
+      flex-direction: column;
+      border: px solid;
+      width: 30px;
+      vertical-align: 50%;
+      margin-left: 19%;
+      padding-left: 5px;
+    }
+
+    .scissors-ham {
+      color: blue;
+      width: 24%;
+      font-size: 3vw;
+      margin-right: 25%;
+    }
+
+    .scissors-ham::before {
+      content: "";
+      display: inline-block; /* Ensures the pseudo-element respects width/height */
+      background-image: url(../Assets/Vector\ \(4\).png);
+      background-size: contain; /* Scales the image to fit the element */
+      background-repeat: no-repeat; /* Prevents the image from repeating */
+      margin-right: 1px;
+      width: 3vw;
+      height: 2.5vw;
+    }
+    .login,
+    .free {
+      font-size: 3.3vw;
+    }
+    .hamburger-nav span {
+      margin-bottom: 0;
+      width: 25px;
+      height: 3px;
+      background-color: blue;
+      vertical-align: text-bottom;
+      margin-top: 5px;
+      z-index: 998;
+      box-sizing: border-box;
+    }
+
+    .hamburger-nav input {
+      position: absolute;
+      top: 5%;
+      left: 20%;
+      transform: scale(3, 1.5);
+      opacity: 0;
+      cursor: pointer;
+      z-index: 999;
+    }
+    .hamburger-nav input:checked ~ ul {
+      display: block;
+      animation-duration: 2s;
+      animation-name: slidein1;
+      animation-iteration-count: infinite1;
+      animation-timing-function: ease-in-out;
+    }
+
+    @keyframes slidein1 {
+      from {
+        opacity: 0;
+        transform: translateY(-100%);
+      }
+      to {
+        opacity: 1;
+        transform: translateY(0%);
+      }
+    }
+
+    .hamburger-nav div input:checked ~ span:nth-of-type(1) {
+      transform: rotate(48deg) translate(4px, 5px);
+      top: 0;
+      background-color: black;
+      animation-duration: 1s;
+      animation-name: slidein;
+      animation-iteration-count: infinite1;
+      animation-timing-function: ease-in-out;
+      
+    }
+
+    @keyframes slidein {
+      from {
+        margin-left: 0%;
+        width: 0%;
+      }
+      to {
+        margin-right: 50%;
+        width: 55%;
+      }
+    }
+
+    .hamburger-nav div input:checked ~ span:nth-of-type(2) {
+      display: none;
+    }
+
+    .hamburger-nav div input:checked ~ span:nth-of-type(3) {
+      transform: rotate(-48deg) translate(0, -5px);
+      top: 0;
+      background-color: black;
+      animation-duration: 1s;
+      animation-name: slidein;
+      animation-iteration-count: infinite1;
+      animation-timing-function: ease-in-out;
+    }
+
+    .hamburger-nav ul {
+      position: fixed;
+      top: 0%;
+      left: 65%;
+      width: 45%;
+      height: 70%;
+      background-color: white;
+      border: px solid;
+      padding-top: 15%;
+      padding-left: 2%;
+      margin: 0;
+      list-style: none;
+      background-color: blue;
+      display: none;
+    }
+
+    .hamburger-nav ul li {
+      font-size: 4.3vw;
+      margin-bottom: 20%;
+      border: px solid;
+      padding: 5px;
+      color: white;
+      z-index: 998;
+    }
+    .hamburger-nav ul li:nth-of-type(1) {
+      margin-bottom: 10%;
+    }
+    .hamburger-nav ul li:nth-of-type(2) {
+      padding: 0;
+      margin-bottom: 10%;
+    }
+
+    .hamburger-nav ul li select {
+      border: px solid;
+      font-size: 4.3vw;
+      height: 7.1vh;
+      width: 70%;
+      background-color: blue;
+      color: white;
+    }
+    .first-nav {
+      display: none;
+    }
+  }

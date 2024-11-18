@@ -8,99 +8,16 @@ body {
 
 main {
   background-color: red;
+  z-index: 1;
 }
 .container1 {
   background-color: white;
   position: relative;
   box-sizing: border-box;
+  z-index: 1;
 }
 
-.header1 {
-  width: 100%;
-  height: auto;
-  background-color: white;
-  border: px solid black;
-}
 
-.nav-flex-container {
-  width: 95%;
-  height: 7vh;
-  margin: 0 auto;
-  background-color: white;
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
-  padding: 3px;
-}
-
-.nav-flex-child {
-  border: px solid black;
-  display: flex;
-  justify-content: flex-end;
-  height: 5vh;
-  align-items: center;
-}
-.scissors {
-  justify-content: flex-start;
-  color: blue;
-  width: 24%;
-  vertical-align: middle;
-}
-.scissors::before {
-  content: url(../Assets/Vector\\(4\).png);
-  margin-right: 8px;
-  width: 20px;
-  height: 20px;
-  display: inline;
-}
-
-.url,
-.features,
-.pricing,
-.analytics {
-  background-color: white;
-  width: 9%;
-  justify-content: flex-start;
-}
-
-.features,
-select {
-  width: 7%;
-  outline: 0;
-  border: 0px solid;
-  height: 6vh;
-}
-.pricing {
-  justify-content: center;
-}
-.faq {
-  width: 20%;
-  justify-content: flex-start;
-}
-.url,
-.login {
-  color: blue;
-}
-.login,
-.free {
-  width: 6%;
-  justify-content: center;
-}
-.free,
-.div-section1-child2 .sign-up {
-  color: white;
-  flex-wrap: nowrap;
-  flex: 1;
-  background-color: blue;
-  border-radius: 18px;
-}
-select {
-  width: 100%;
-  height: 5vh;
-  font-size: 16px;
-  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
-}
 
 .div-section1 {
   width: 60%;
@@ -109,6 +26,7 @@ select {
   padding-right: 150px;
   text-align: center;
   border: 1px solid;
+  z-index: 1;
 }
 
 .div-section1-child1 h1 {
