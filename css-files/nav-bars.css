@@ -92,7 +92,7 @@
     display: none;
   }
 
-  @media (max-width: 768px) {
+  @media (max-width: 920px) {
     .hamburger-nav {
       border: px solid;
       position: relative;
@@ -129,7 +129,7 @@
       color: blue;
       width: 24%;
       font-size: 3vw;
-      margin-right: 25%;
+      margin-right: 17vw;
     }
 
     .scissors-ham::before {
@@ -226,7 +226,7 @@
       top: 0%;
       left: 65%;
       width: 45%;
-      height: 70%;
+      height: 100%;
       background-color: white;
       border: px solid;
       padding-top: 15%;

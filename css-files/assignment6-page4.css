@@ -1,0 +1,133 @@
+.container4 {
+    width: 100%;
+    height: auto;
+    padding: 10vw 0;
+    box-sizing: border-box;
+    background: linear-gradient(
+      to right,
+      rgba(30, 52, 72, 1) 70%,
+      rgba(30, 52, 72, 0) 100%
+    );
+    margin: 0;
+  }
+  
+  .container4-section1 {
+    width: 34%;
+    background-color: white;
+    height: 300px;
+    border-radius: 12px;
+    margin: 0 auto;
+    padding: 60px 5px 60px 35px;
+    display: block;
+    box-sizing: border-box;
+  }
+  
+  .container4-section1 input::placeholder {
+    color: blue;
+  }
+  
+  .container4-flex1 input {
+    width: 100%;
+    border-radius: 5px;
+    border: 0.5px solid blue;
+  }
+  
+  .container4-flex2 input,
+  .container4-flex2 select {
+    width: 50%;
+    border: 0.5px solid blue;
+    border-radius: 5px;
+    box-sizing: border-box;
+    color: blue;
+  }
+  
+  .container4-flex1 {
+    width: 90%;
+    height: 32px;
+    border: px solid black;
+    display: flex;
+    margin-bottom: 30px;
+  }
+  
+  .container4-flex2 {
+    width: 90%;
+    height: auto;
+    border: px solid black;
+    display: flex;
+    gap: 20px;
+  }
+  
+  .c4-button {
+    background-color: blue;
+    border-radius: 100px;
+    width: 90%;
+    margin: 20px auto;
+    color: white;
+  }
+  
+  .c4-button::after {
+    content: url(./Vector\ 1.svg);
+    margin-left: 5px;
+    vertical-align: middle;
+  }
+  
+  .container4-section1 .c4-p {
+    border: px solid;
+    flex: 1;
+    flex-wrap: wrap;
+    width: 88.5%;
+    font-size: 14px;
+    margin-left: 0;
+    text-align: left;
+    color: blue;
+  }
+  
+  .c4-p a {
+    text-decoration: none;
+    font-weight: 700;
+  }
+  @media (max-width: 768px) {
+    .container4 {
+      height: 100%;
+    border: px solid;
+    }
+    .container4-section1 {
+      width: 90%;
+      height: 100%;
+      padding: 4vw 3vw;
+      border: 0px solid;
+    }
+    .container4-section1 input {
+      width: 100%;
+      border: 0.5px solid blue;
+      
+    }
+    .container4-section1 select {
+      width: 100%;
+        border: 0.5px solid;
+        
+    }
+    .container4-section1 .c4-p {
+      width: 100%;
+      text-align: center;
+    }
+    .container4-section1 .c4-button {
+      width: 100%;
+    }
+    .container4-flex1 {
+      width: 100%;
+      border: px solid;
+      margin-bottom: 20px;
+        
+    }
+    .container4-flex2 {
+      width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+    .container4-flex2 input {
+      width: 100%;
+      height: 34px;
+      margin-top: 0vw;
+    }
+  }

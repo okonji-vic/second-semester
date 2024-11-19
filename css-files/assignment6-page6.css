@@ -1,0 +1,36 @@
+.container6 {
+    width: 100%;
+    height: auto;
+    padding: 8vw 0;
+    box-sizing: border-box;
+    background: linear-gradient(
+      to right,
+      rgba(30, 52, 72, 1) 70%,
+      rgba(30, 52, 72, 0) 100%
+    );
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    line-height: 48px;
+    gap: 0;
+  }
+  
+  .container6 p {
+    color: white;
+    border: px solid;
+    width: 90%;
+    height: auto;
+    align-content: center;
+    font-size: 5vw;
+    text-align: center;
+  }
+  
+  .container6 button {
+    border: 1px solid;
+    width: 200px;
+    height: 48px;
+    background-color: blue;
+    color: white;
+  }
