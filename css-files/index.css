@@ -68,7 +68,7 @@ body h1 {
 
 #div-button button:last-child {
    border: 1px solid black;
-   display: none;
+   display: non;
 }
 
 a:hover {
