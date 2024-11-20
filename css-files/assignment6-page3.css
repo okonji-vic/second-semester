@@ -117,7 +117,7 @@
     height: 76vh;
     padding: 5px 20px 5px 30px;
     background-color: darkblue;
-    z-index: 999;
+    z-index: 990;
     position: absolute;
     top: -10%;
     box-sizing: border-box;
@@ -219,7 +219,7 @@
             height: auto;
             padding: 5px 20px 10vw 30px;
             background-color: darkblue;
-            z-index: 999;
+            z-index: 990;
             position: relative;
             top: 0;
             left: 0;

@@ -188,6 +188,7 @@
     .hamburger-nav div input:checked ~ span:nth-of-type(1) {
       transform: rotate(48deg) translate(4px, 5px);
       top: 0;
+      
       background-color: black;
       animation-duration: 1s;
       animation-name: slidein;
