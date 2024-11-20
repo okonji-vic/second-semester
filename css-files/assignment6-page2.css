@@ -164,15 +164,15 @@ font-size: 2.2vw;
         font-size: 3vw;
     }
     h3[class="why-choose-scissors"] {
-        font-size: 3.5vw;
+        font-size: 2.8vw;
     }
     h3[class="why-choose-scissors"]::before {
         width: 2px;
         height: 5vw;
-        margin-right: 5px;
+        margin-right: 0.5vw;
     }
     h3[class="why-choose-scissors"] span {
-        font-size: 3.9vw;
+        font-size: 3vw;
     }
 }
 @media (max-width: 370px) {
