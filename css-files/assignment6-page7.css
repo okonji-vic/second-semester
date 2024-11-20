@@ -196,8 +196,13 @@ footer {
       width: 9vw;
       height: 9vw;
       margin-top: 10vw;
-      margin-right: 9vw;
+      margin-right: 14vw;
+    
       
+    }
+    #container7-img img:last-of-type {
+      margin-right: 0;
+      border: px solid;
     }
     .container7 div h6 {
       font-size: 7vw;
@@ -206,8 +211,8 @@ footer {
       font-size: 6vw;
     }
     .container8 {
-      margin-left: 4vw;
-      padding-left: 4vw;
+      margin-left: 3vw;
+      padding-left: 3vw;
       text-align: start;
       border-top: 0.5px solid red;
       width: 92%;
