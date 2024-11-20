@@ -149,13 +149,21 @@ font-size: 2.2vw;
     }
     .page2-section2-child1 {
         width: 45vw;
+        border: 0px solid;
     }
     .page2-section2-child2 {
         width: 30vw;
         margin-left: 10vw;
+        border: 0px solid;
+    }
+    .page2-section2-child2 div, .page2-section2-child3 div {
+        margin-bottom: 5vw;
+        border: px solid green;
+        height: 100vw;
     }
     .page2-section2-child3 {
         width: 30vw;
+        border: 0px solid;
     }
     .page2-section1 div:nth-of-type(4), .page2-section2-child3 {
         margin-left: 2vw;
