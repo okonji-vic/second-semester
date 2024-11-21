@@ -168,6 +168,8 @@
             width: 87vw;
             box-sizing: border-box;
             font-size: 3vw;
+            border: px solid;
+            margin-top: 3vw;
         }
         #a-price-perfect {
             font-size: 5vw;
@@ -209,7 +211,7 @@
         .container3-section2 div:nth-of-type(3) {
             width: 100%;
             position: relative;
-            top: -4.5vw;
+            top: -5.5vw;
             left: 0;
             padding-right: 10px;
         }
