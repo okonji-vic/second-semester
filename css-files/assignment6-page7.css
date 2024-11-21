@@ -183,7 +183,7 @@ footer {
     .container7-first-img {
       width: 9vw;
       height: 10vw;
-      vertical-align: bottom;
+      vertical-align: -50%;
     }
     #container7-img {
       width: 98%;
@@ -211,14 +211,14 @@ footer {
       font-size: 6vw;
     }
     .container8 {
-      margin-left: 3vw;
+      margin-left: 4vw;
       padding-left: 3vw;
       text-align: start;
       border-top: 0.5px solid red;
       width: 92%;
     }
     .container8 a {
-      font-size: 4.5vw;
+      font-size: 4.3vw;
       color: blue;
 
       
