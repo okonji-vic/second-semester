@@ -159,9 +159,9 @@
         background-color: blue;
         color: white;
     }
-    @media (max-width:850px) {
+    @media (max-width: 850px) {
       .container3-section2 {
-        height: 100vh;
+        height: 100vw;
       }
     }
     @media (max-width: 690px) {
