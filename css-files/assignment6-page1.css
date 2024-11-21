@@ -266,17 +266,20 @@ left: -0.4vw;
 
 .div-section3-child1 {
   width: 100%;
-  height: 10vw;
-  background-color: white;
+  height: 9vw;
+  background-color: rgba(240, 240, 240, 1);
   border: 0px solid black;
   margin: 0px auto;
   position: relative;
   top: -10vw;
+  padding-top: 1vw;
+  clip-path: polygon(20% 3%, 80% 0%, 100% 100%, 0% 100%);
+  
 }
 
 .div-section3-child1 div {
   width: 66%;
-  height: 4vw;
+  height: 4.5vw;
   margin: 10px auto;
   background: linear-gradient(
     to bottom,
@@ -313,5 +316,12 @@ left: -0.4vw;
       }
       .section2-span-child:nth-of-type(11) {
         left: -1.1vw;
+      }
+      .div-section3-child1 {
+        padding-top: 2vw;
+        padding-bottom: 1.5vw;
+      }
+      .div-section3-child1 div {
+        margin-top: 0;
       }
   }

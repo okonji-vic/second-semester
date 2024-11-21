@@ -121,7 +121,7 @@
     } */
 
 
-div {
+.irregular-shape {
     width: 50%;
     height: 50vw;
     color: bisque;
@@ -135,6 +135,13 @@ div {
     border-radius: 500px 620px 500px 800px;
     /* transform: rotate(-45deg); */
 }
+.slanted-border {
+  width: 200px;
+  height: 30px;
+  background: lightblue;
+  clip-path: polygon(30% 3%, 72% 0%, 100% 100%, 0% 100%);
+}
+
 </style>
 <body>
     <!-- <div>
@@ -167,6 +174,8 @@ div {
     <span class="star4"></span>
     <span class="star5"></span>
     <span class="star6"></span>
-    <div></div>
+    <div class="irregular-shape"></div>
+    <div class="slanted-border"></div>
+
 </body>
 </html>
