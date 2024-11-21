@@ -171,9 +171,9 @@ font-size: 2.2vw;
         border: 0px solid;
     }
     .page2-section2-child2 div, .page2-section2-child3 div {
-        margin-bottom: 5vw;
+        margin-bottom: 2vw;
         border: px solid green;
-        height: 50vw;
+        height: 48vw;
     }
     .page2-section2-child3 {
         width: 30vw;
@@ -183,7 +183,7 @@ font-size: 2.2vw;
         margin-left: 2vw;
     }
     h3 {
-        font-size: 3.5vw;
+        font-size: 3.6vw;
     }
     h3[class="why-choose-scissors"] {
         font-size: 4.8vw;
@@ -197,8 +197,12 @@ font-size: 2.2vw;
         font-size: 5vw;
     }
     .page2-section2-child1 div p {
-        font-size: 3.8vw;
+        font-size: 3.6vw;
         margin-top: 5vw;
+    }
+    .page2-section2-child2 div p, .page2-section2-child3 div p {
+        font-size: 2.6vw;
+        margin-top: 5px;
     }
 }
 @media (max-width: 370px) {
