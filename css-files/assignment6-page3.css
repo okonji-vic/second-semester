@@ -159,7 +159,7 @@
         background-color: blue;
         color: white;
     }
-    @media (maxwidth:850px) {
+    @media (max-width:850px) {
       .container3-section2 {
         height: 100vh;
       }
