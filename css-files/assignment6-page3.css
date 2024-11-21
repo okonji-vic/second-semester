@@ -28,7 +28,7 @@
   .container3-section2 {
     width: 65%;
     margin: 10vw auto 2vw auto;
-    height: 65vh;
+    height: 75vh;
     background-color: white;
     display: flex;
     gap: 2px;
@@ -115,22 +115,21 @@
     width: 42%;
     border-radius: 5px;
     border: 0.5px solid blue;
-    height: 76vh;
-    padding: 5px 20px 5px 30px;
+    height: auto;
+    padding: 50px 20px 10vw 30px;
     background-color: darkblue;
     z-index: 990;
     position: absolute;
     top: -10%;
     box-sizing: border-box;
     color: white;
-    padding-top: 50px;
   }
   
   .container3-section3 {
     background-color: white;
     width: 40%;
     margin: 0px auto;
-    border: px solid;
+    border: px solid green;
     text-align: center;
     padding: 10px 0;
   }
