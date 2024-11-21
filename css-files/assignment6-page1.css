@@ -302,4 +302,16 @@ left: -0.7vw;
     .div-section2-child1 {
       top: -15vw; 
       }
+      .section2-span-child:nth-of-type(8) {
+        left: -7vw;
+      }
+      .section2-span-child:nth-of-type(5) {
+        left: -4.3vw;
+      }
+      .section2-span-child:nth-of-type(2) {
+        left: -1.8vw;
+      }
+      .section2-span-child:nth-of-type(11) {
+        left: -1.1vw;
+      }
   }
