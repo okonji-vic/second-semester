@@ -33,7 +33,7 @@
   .scissors::before {
     content: "";
     display: inline-block; /* Ensures the pseudo-element respects width/height */
-    background-image: url(../Assets/Vector\ \(4\).png);
+    background-image: url(/Assets/Vector\ \(4\).png);
     background-size: contain; /* Scales the image to fit the element */
     background-repeat: no-repeat; /* Prevents the image from repeating */
     margin-right: 3px;
@@ -135,7 +135,7 @@
     .scissors-ham::before {
       content: "";
       display: inline-block; /* Ensures the pseudo-element respects width/height */
-      background-image: url(../Assets/Vector\ \(4\).png);
+      background-image: url(/Assets/Vector\ \(4\).png);
       background-size: contain; /* Scales the image to fit the element */
       background-repeat: no-repeat; /* Prevents the image from repeating */
       margin-right: 1px;
