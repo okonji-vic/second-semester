@@ -196,10 +196,10 @@ a {
 }
 
 @media (max-width: 340px) {
-    .container {
-        width: 100%;
-        height: 165vh;
-      }
+  .container {
+    width: 100%;
+    height: 165vh;
+  }
   .form-div {
     height: 69%;
   }
