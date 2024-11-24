@@ -37,7 +37,8 @@
 }
 
 .page2-section1 div:first-of-type span:nth-child(2) {
-    color: blue;
+    color: rgba(0, 90, 226, 1);
+    ;
 
 }
 
@@ -117,7 +118,7 @@ margin-right: 0.2vw;
 vertical-align: -25%;
 }
 h3[class="why-choose-scissors"] span {
-color: blue;
+color: rgba(0, 90, 226, 1);
 font-size: 2.2vw;
 }
 .page2-section2-child2 img, .page2-section2-child3 img {

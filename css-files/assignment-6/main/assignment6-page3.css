@@ -21,7 +21,7 @@
   }
   
   #a-price-perfect span {
-    color: blue;
+    color:rgba(0, 90, 226, 1);
     font-size: 4vw;
   }
   
@@ -40,7 +40,7 @@
   .container3-section2 div {
     width: 33%;
     border-radius: 5px;
-    border: 0.5px solid blue;
+    border: 0.5px solid rgba(0, 90, 226, 1);;
     height: auto;
     padding: 5px 20px 5px 30px;
     background-color: white;
@@ -94,7 +94,7 @@
     display: inline-block;
     margin: 0 5px 0 5px;
     position: relative;
-    border: 1px solid blue;
+    border: 1px solid rgba(0, 90, 226, 1);
     vertical-align: middle;
   }
   
@@ -106,7 +106,7 @@
     left: 7px;
     width: 3px;
     height: 10px;
-    border: solid blue;
+    border: solid rgba(0, 90, 226, 1);
     border-width: 0 2px 2px 0;
     transform: rotate(45deg);
   }
@@ -114,10 +114,10 @@
   .container3-section2 div:hover {
     width: 42%;
     border-radius: 5px;
-    border: 0.5px solid blue;
+    border: 0.5px solid rgba(0, 90, 226, 1);
     height: auto;
     padding: 50px 20px 10vw 30px;
-    background-color: darkblue;
+    background-color: rgba(30, 52, 72, 1);
     z-index: 990;
     position: absolute;
     top: -10%;
@@ -138,25 +138,25 @@
     padding: 10px 15px;
     border-radius: 100px;
     width: 200px;
-    border: 0.5px solid blue;
+    border: 0.5px solid rgba(0, 101, 254, 1);
   }
   
   .c3-button1 {
     background-color: white;
-    color: blue;
+    color: rgba(0, 90, 254, 1);
     margin-bottom: 1vw;
   }
   .c3-button2 {
-    background-color: blue;
+    background-color: rgba(0, 101, 254, 1);
     color: white;
     padding: 10px 25px;
   }
     .c3-button2:hover {
         background-color: white;
-        color: blue;
+        color: rgba(0, 101, 254, 1);
     }
     .c3-button1:hover {
-        background-color: blue;
+        background-color: rgba(0, 101, 254, 1);
         color: white;
     }
     @media (max-width: 850px) {
@@ -199,7 +199,7 @@
             top: 0;
             left: 0;
             z-index: 1;
-            border: 0.5px solid blue;
+            border: 0.5px solid rgba(0, 90, 226, 1);
             
             
         }
@@ -223,10 +223,10 @@
         .container3-section2 div:hover {
             width: 100%;
             border-radius: 5px;
-            border: 0.5px solid blue;
+            border: 0.5px solid rgba(0, 90, 226, 1);
             height: auto;
             padding: 5px 20px 10vw 30px;
-            background-color: darkblue;
+            background-color: rgba(30, 52, 72, 1);
             z-index: 990;
             position: relative;
             top: 0;

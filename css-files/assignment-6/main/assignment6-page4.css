@@ -23,23 +23,23 @@
   }
   
   .container4-section1 input::placeholder {
-    color: blue;
+    color: rgba(50, 132, 255, 1);
   }
   
   .container4-flex1 input {
     width: 100%;
     border-radius: 5px;
-    border: 0.5px solid blue;
+    border: 0.5px solid rgba(50, 132, 255, 1);
     font-size: 1.3vw;
   }
   
   .container4-flex2 input,
   .container4-flex2 select {
     width: 50%;
-    border: 0.5px solid blue;
+    border: 0.5px solid rgba(50, 132, 255, 1);
     border-radius: 5px;
     box-sizing: border-box;
-    color: blue;
+    color: rgba(50, 132, 255, 1);
     font-size: 1.3vw;
   }
   .c4-option {
@@ -64,7 +64,7 @@
   }
   
   .c4-button {
-    background-color: blue;
+    background-color: rgba(0, 90, 226, 1);
     border-radius: 100px;
     width: 90%;
     margin: 20px 0;
@@ -101,12 +101,13 @@
     font-size: 14px;
     margin-left: 0;
     text-align: left;
-    color: blue;
+    color: rgba(73, 145, 255, 1);
   }
   
   .c4-p a {
     text-decoration: none;
     font-weight: 700;
+    color: rgba(73, 145, 255, 1);
   }
   /* .star-container {
     display: inline;
@@ -199,7 +200,7 @@
     }
     .container4-section1 input {
       width: 100%;
-      border: 0.5px solid blue;
+      border: 0.5px solid rgba(50, 132, 255, 1);
       font-size: 2vw;
     }
     .container4-section1 select {

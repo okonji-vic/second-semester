@@ -12,7 +12,7 @@
     box-sizing: border-box;
     display: flex;
     flex-direction: column;
-    margin: 0 auto;
+    margin: -10px auto;
   }
   .div-section1-child1 h1 {
     border: px solid;
@@ -24,12 +24,12 @@
 
   }
   .div-section1-child1 span {
-    color: blue;
+    color: rgba(0, 90, 226, 1)
   }
   .div-section1-child1 p {
     border: px solid;
     width: 64vw;
-    margin: 0 auto;
+    margin: -10px auto 0 auto;
     text-align: center;
     font-size: 1.7vw;
     line-height: 2.5vw;
@@ -53,13 +53,13 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: blue;
+    background-color: rgba(0, 101, 254, 1);
     border-radius: 20px;
     color: white;
     font-size: 2vw;
   }
   .learn-more {
-    color: blue;
+    color: rgba(0, 101, 254, 1);
     font-size: 2.5vw;
   }
   .img1 {
@@ -71,6 +71,16 @@ margin: 0;
 width: 16vw;
 height: 10%;
 
+}
+.img2 {
+position: relative;
+top: -2.5vw;
+left: 37.5vw;
+display: inline-block;
+margin: 0;
+width: 16vw;
+height: 1%;
+border: px solid;
 }
 .arrow-img {
 width: 5vw;
