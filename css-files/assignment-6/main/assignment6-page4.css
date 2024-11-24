@@ -81,7 +81,7 @@
   .c4-button::after {
       content: ""; /* Required for pseudo-elements */
       display: inline-block; /* Ensures it behaves like an element */
-      background-image: url(../Assets/magic%20wand.png); /* Use %20 for spaces in filenames */
+      background-image: url(/Assets/magic%20wand.png); /* Use %20 for spaces in filenames */
       background-size: contain; /* Scales the background image */
       background-repeat: no-repeat; /* Prevents tiling */
       margin-left: 0.3vw; /* Space between the element and the image */
