@@ -138,10 +138,7 @@ font-size: 2.2vw;
 @media (max-width: 768px) {
 
     .page2-section2 {
-        margin-top: 10vw;
-        
-        
-        
+        margin-top: 10vw;  
     }
     .page2-section1 div {
         width: 18vw;
@@ -184,7 +181,7 @@ font-size: 2.2vw;
         margin-left: 2vw;
     }
     h3 {
-        font-size: 3.6vw;
+        font-size: 4vw;
     }
     h3[class="why-choose-scissors"] {
         font-size: 5.2vw;
