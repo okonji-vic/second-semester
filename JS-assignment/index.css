@@ -1,0 +1,56 @@
+#reference {
+  width: 50vw;
+  height: auto;
+  background: lightblue;
+  margin: 0vw 0vw 0px 7.4vw;
+  font-size: 2vw;
+  padding: 10px 0px 20px 3vw;
+  border-left: 15px solid grey;
+}
+
+p {
+  color: black;
+  font-size: 2.3vw;
+
+  width: 100%;
+  height: auto;
+  margin: 0 auto;
+  position: relative;
+}
+#floating2 {
+  background: pink;
+  padding: 10px;
+  display: none;
+  width: 10vw;
+  margin: -0px 0.4vw 0vw 0vw;
+  font-size: 2vw;
+  border: 1px solid;
+}
+#floating3 {
+  background: pink;
+  padding: 10px;
+  display: none;
+  width: 3vw;
+  margin: 0vw 0vw 0vw 0vw;
+  font-size: 2vw;
+  z-index: 3;
+  border: 1px solid;
+  text-align: center;
+}
+#floating {
+  background: pink;
+  padding: 10px;
+  display: none;
+  width: 10vw;
+  font-size: 2vw;
+  z-index: 3;
+  border: 1px solid;
+}
+span {
+  display: block;
+  margin-top: 0px;
+  font-size: 5vw;
+  height: 5vw;
+  padding-top: 0px;
+  font-family:  cursive;
+}
