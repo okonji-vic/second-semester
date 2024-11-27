@@ -163,7 +163,7 @@ footer {
     .container7 .container7-section1 div {
       height: auto;
       margin-bottom: 20px;
-      border-top: 0.5px solid red;
+      border-top: 0.5px solid darkblue;
     }
     .container7-section1:first-of-type div {
       flex-direction: column;
@@ -172,7 +172,7 @@ footer {
     
     .container7-section1:nth-of-type(2) div:nth-last-of-type(1){
       height: auto;
-      border-top: 0.5px solid red;
+      border-top: 0.5px solid darkblue;
     }
     .container7-section1:first-of-type div h4 {
       font-size: 8vw;
@@ -214,7 +214,7 @@ footer {
       margin-left: 4vw;
       padding-left: 3vw;
       text-align: start;
-      border-top: 0.5px solid red;
+      border-top: 0.5px solid darkblue;
       width: 92%;
     }
     .container8 a {
