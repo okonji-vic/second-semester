@@ -11,40 +11,17 @@
 p {
   color: black;
   font-size: 2.3vw;
-
   width: 100%;
   height: auto;
   margin: 0 auto;
   position: relative;
 }
-#floating2 {
-  background: pink;
-  padding: 10px;
+#floating2, #floating3, #floating {
   display: none;
   width: 10vw;
-  margin: -0px 0.4vw 0vw 0vw;
-  font-size: 2vw;
-  border: 1px solid;
 }
 #floating3 {
-  background: pink;
-  padding: 10px;
-  display: none;
   width: 3vw;
-  margin: 0vw 0vw 0vw 0vw;
-  font-size: 2vw;
-  z-index: 3;
-  border: 1px solid;
-  text-align: center;
-}
-#floating {
-  background: pink;
-  padding: 10px;
-  display: none;
-  width: 10vw;
-  font-size: 2vw;
-  z-index: 3;
-  border: 1px solid;
 }
 span {
   display: block;
@@ -53,4 +30,13 @@ span {
   height: 5vw;
   padding-top: 0px;
   font-family:  cursive;
+}
+
+.result {
+  background: pink;
+  padding: 10px;
+  font-size: 2vw;
+  border: 1px solid;
+  text-align: center;
+  z-index: 1000; 
 }
