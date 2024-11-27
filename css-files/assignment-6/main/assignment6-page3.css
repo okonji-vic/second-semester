@@ -42,7 +42,7 @@
     border-radius: 5px;
     border: 0.5px solid rgba(0, 90, 226, 1);;
     height: auto;
-    padding: 5px 20px 5px 30px;
+    padding: 5px 20px 5vw 30px;
     background-color: white;
     z-index: 1;
     position: absolute;
@@ -55,8 +55,8 @@
     position: absolute;
     top: -2%;
     left: 31%;
-    padding-top: 0.95rem;
-    padding-bottom: 4.5vw;
+    padding-top: 2.5vw;
+    padding-bottom: 7vw;
   }
   .container3-section2 div:nth-of-type(3) {
     left: 69.3%;
