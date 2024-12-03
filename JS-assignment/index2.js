@@ -9,7 +9,6 @@ const reference = document.getElementById("reference");
 const floating = document.getElementById("floating");
 const floating2 = document.getElementById("floating2");
 const floating3 = document.getElementById("floating3");
-const parent = document.getElementById("parent");
 
 // Function to show and position a floating element
 async function showFloatingElement(floatingElement, placement) {
@@ -24,16 +23,22 @@ async function showFloatingElement(floatingElement, placement) {
       ],
     });
 
+// Align the floating element to the beginning of the reference
+const rect = reference.getBoundingClientRect(); // Get reference element dimensions
+const adjustedX = rect.left; // Align with the beginning of the reference
+const adjustedY = rect.top + 11; // Align with the top of the reference
+
+
     // Apply the computed x and y to the floating element
     if (floatingElement.id === "floating") {
-      floatingElement.style.left = `${10}vw`;
+      floatingElement.style.left = `${adjustedX}px`;
       floatingElement.style.top = `${y}px`;
     } else if (floatingElement.id === "floating2") {
-      floatingElement.style.left = `${10}vw`;
+      floatingElement.style.left = `${adjustedX}px`;
       floatingElement.style.top = `${y}px`;
     } else if (floatingElement.id === "floating3") {
       floatingElement.style.left = `${x}px`;
-      floatingElement.style.top = `${9.7}vw`;
+      floatingElement.style.top = `${adjustedY}px`;
     }
     floatingElement.classList.add("result");
     floatingElement.style.display = "block";
@@ -44,26 +49,14 @@ async function showFloatingElement(floatingElement, placement) {
 }
 
 // Event handlers for `floating`
-reference.addEventListener("mouseenter", () =>
-  showFloatingElement(floating, "bottom")
-);
+reference.addEventListener("mouseenter", () => {
+  showFloatingElement(floating, "bottom");
+  showFloatingElement(floating2, "top");
+  showFloatingElement(floating3, "right");
+});
 reference.addEventListener("mouseleave", () => {
   floating.style.display = "none";
-});
-
-// Event handlers for `floating2`
-reference.addEventListener("mouseenter", () =>
-  showFloatingElement(floating2, "top")
-);
-reference.addEventListener("mouseleave", () => {
   floating2.style.display = "none";
-});
-
-// Event handlers for `floating3`
-reference.addEventListener("mouseenter", () =>
-  showFloatingElement(floating3, "right")
-);
-reference.addEventListener("mouseleave", () => {
   floating3.style.display = "none";
 });
 
@@ -73,3 +66,47 @@ setInterval(() => {
   showFloatingElement(floating2, "top");
   showFloatingElement(floating3, "right");
 }, 5000);
+
+
+
+
+// async function showFloatingElement(floatingElement, placement) {
+//   try {
+//     const { x, y } = await computePosition(reference, floatingElement, {
+//       placement, 
+//       middleware: [
+//         offset(-10), 
+//         flip(),     
+//         shift(),    
+//       ],
+//     });
+// 
+// const rect = reference.getBoundingClientRect(); 
+// const adjustedX = rect.left; 
+    
+//     floatingElement.style.left = `${adjustedX}px`;
+//     floatingElement.style.top = `${y}px`;
+//     floatingElement.style.position = "absolute";
+//     floatingElement.style.display = "block";
+//     floatingElement.classList.add("result");
+//   } catch (error) {
+//     console.error("Error positioning the floating element:", error);
+//   }
+// }
+
+
+// function updateAllFloatingElements() {
+//   showFloatingElement(floating, "bottom");
+//   showFloatingElement(floating2, "top");
+//   showFloatingElement(floating3, "right");
+// }
+
+// reference.addEventListener("mouseenter", updateAllFloatingElements);
+// reference.addEventListener("mouseleave", () => {
+//   floating.style.display = "none";
+//   floating2.style.display = "none";
+//   floating3.style.display = "none";
+// });
+
+
+// setInterval(updateAllFloatingElements, 5000);

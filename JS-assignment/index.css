@@ -2,7 +2,7 @@
   width: 50vw;
   height: auto;
   background: lightblue;
-  margin: 0vw 0vw 0px 7.4vw;
+  margin: 0vw 0vw 0px 38.4vw;
   font-size: 2vw;
   padding: 10px 0px 20px 3vw;
   border-left: 15px solid grey;
@@ -16,9 +16,9 @@ p {
   margin: 0 auto;
   position: relative;
 }
-#floating2, #floating3, #floating {
+#floating2, #floating, #floating3 {
   display: none;
-  width: 10vw;
+  
 }
 #floating3 {
   width: 3vw;
