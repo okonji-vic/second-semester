@@ -67,7 +67,7 @@ details[open] summary {
 }
 details[open] {
   list-style: none;
-  display: inline-flex;
+  /* display: inline-flex; */
   justify-content: flex-end;
   flex: 1;
   border: px solid;
