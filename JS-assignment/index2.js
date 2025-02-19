@@ -17,7 +17,7 @@ async function showFloatingElement(floatingElement, placement) {
     const { x, y } = await computePosition(reference, floatingElement, {
       placement, // Dynamic placement
       middleware: [
-        offset(-10), // Adds 10px offset
+        offset(-10), // Adds -10px offset
         flip(), // Flips the element if it overflows
         shift(), // Adjusts to fit within the viewport
       ],
