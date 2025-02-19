@@ -63,6 +63,10 @@ main {
   animation: slideInLeft 1s ease-in-out;
 }
 
+#container p {
+  text-align: center;
+}
+
 #preview {
   animation: slideInRight 1s ease-in-out;
 }
