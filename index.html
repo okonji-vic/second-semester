@@ -6,6 +6,45 @@
     <title>CSS Assignments Landing Page</title>
     <link rel="stylesheet" href="css-files/index.css">
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    <script >
+        document.addEventListener('DOMContentLoaded', () => {
+    const buttons = document.querySelectorAll('button a');
+    const preview = document.querySelector('iframe');
+    const next = document.getElementById('next');
+    const previous = document.getElementById('previous');
+
+    let previewSrc = [
+        "html-files/assignment1.html",
+        "html-files/assignment2.html",
+        "html-files/assignment3.html",
+        "html-files/assignment4.html",
+        "html-files/assignment5.html",
+        "html-files/assignment6.html"
+    ];
+
+    // buttons.forEach(button => {
+    //     button.addEventListener('click', (e) => {
+    //         e.preventDefault(); // Prevent the default link behavior
+    //         preview.src = button.href;
+    //     });
+    // });
+
+    next.addEventListener('click', () => {
+        let currentSrc = preview.src;
+        let currentIndex = previewSrc.findIndex(src => currentSrc.endsWith(src));
+        preview.src = previewSrc[(currentIndex + 1) % previewSrc.length]; // Loop back
+    });
+
+    previous.addEventListener('click', () => {
+        let currentSrc = preview.src;
+        let currentIndex = previewSrc.findIndex(src => currentSrc.endsWith(src));
+        preview.src = previewSrc[(currentIndex - 1 + previewSrc.length) % previewSrc.length]; // Loop back
+    });
+});
+
+
+        
+    </script>
 </head>
 <body>
     <header>
@@ -26,7 +65,12 @@
         </section>
         <section id="preview">
             <h2>Preview</h2>
+            <!-- <iframe src="html-files/assignment1.html" title="Assignment Preview"></iframe> -->
             <iframe src="html-files/assignment1.html" title="Assignment Preview"></iframe>
+            <div class="preview-buttons-div">
+              <button id="previous">Previous</button>
+              <button id="next">Next</button>
+            </div>
         </section>
     </main>
     <footer>

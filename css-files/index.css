@@ -93,6 +93,17 @@ button {
   transition: transform 0.3s ease, background-color 0.3s ease;
 }
 
+.preview-buttons-div {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 2rem;
+}
+
+#next, #previous {
+  padding: 10px;
+  text-align: center;
+}
+
 button:hover {
   transform: translateY(-3px);
   background-color: var(--accent-color);
