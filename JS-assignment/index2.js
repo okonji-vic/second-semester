@@ -65,48 +65,8 @@ setInterval(() => {
   showFloatingElement(floating, "bottom");
   showFloatingElement(floating2, "top");
   showFloatingElement(floating3, "right");
-}, 5000);
+}, 1000);
 
 
 
 
-// async function showFloatingElement(floatingElement, placement) {
-//   try {
-//     const { x, y } = await computePosition(reference, floatingElement, {
-//       placement, 
-//       middleware: [
-//         offset(-10), 
-//         flip(),     
-//         shift(),    
-//       ],
-//     });
-// 
-// const rect = reference.getBoundingClientRect(); 
-// const adjustedX = rect.left; 
-    
-//     floatingElement.style.left = `${adjustedX}px`;
-//     floatingElement.style.top = `${y}px`;
-//     floatingElement.style.position = "absolute";
-//     floatingElement.style.display = "block";
-//     floatingElement.classList.add("result");
-//   } catch (error) {
-//     console.error("Error positioning the floating element:", error);
-//   }
-// }
-
-
-// function updateAllFloatingElements() {
-//   showFloatingElement(floating, "bottom");
-//   showFloatingElement(floating2, "top");
-//   showFloatingElement(floating3, "right");
-// }
-
-// reference.addEventListener("mouseenter", updateAllFloatingElements);
-// reference.addEventListener("mouseleave", () => {
-//   floating.style.display = "none";
-//   floating2.style.display = "none";
-//   floating3.style.display = "none";
-// });
-
-
-// setInterval(updateAllFloatingElements, 5000);
