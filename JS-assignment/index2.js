@@ -53,6 +53,12 @@ reference.addEventListener("mouseenter", () => {
   showFloatingElement(floating, "bottom");
   showFloatingElement(floating2, "top");
   showFloatingElement(floating3, "right");
+
+  setTimeout(() => {
+    showFloatingElement(floating, "bottom");
+    showFloatingElement(floating2, "top");
+    showFloatingElement(floating3, "right");
+  }, 0);
 });
 reference.addEventListener("mouseleave", () => {
   floating.style.display = "none";
@@ -61,11 +67,11 @@ reference.addEventListener("mouseleave", () => {
 });
 
 // Set timer for default page loading to run function
-setInterval(() => {
-  showFloatingElement(floating, "bottom");
-  showFloatingElement(floating2, "top");
-  showFloatingElement(floating3, "right");
-}, 1000);
+// setInterval(() => {
+//   showFloatingElement(floating, "bottom");
+//   showFloatingElement(floating2, "top");
+//   showFloatingElement(floating3, "right");
+// }, 100000);
 
 
 
