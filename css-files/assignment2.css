@@ -51,7 +51,7 @@ h2 {
 
 #container2-child2 {
   background-color: rgb(245, 185, 0);
-  width: 23vw;
+  width: 30vw;
   height: 8vh;
   position: absolute;
   top: 77px;
@@ -129,7 +129,7 @@ h2 {
   }
   #container2-child2 {
     background-color: rgb(245, 185, 0);
-    width: 95%;
+    width: 93%;
     height: auto;
     position: absolute;
     top: 45px;
